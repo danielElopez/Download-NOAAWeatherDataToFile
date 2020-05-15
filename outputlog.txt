@@ -1,0 +1,26 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200515150647
+Username: OSI\DLopez
+RunAs User: OSI\DLopez
+Configuration Name: 
+Machine: DLOPEZ74656 (Microsoft Windows NT 10.0.17134.0)
+Host Application: PowerShell.exe -Command & 'D:\users\dlopez\Documents\GitHub\danielElopez\Download-NOAAWeatherDataToFilesfgsdfg\Download-NOAAWeatherDataToFile.ps1'
+Process ID: 22584
+PSVersion: 5.1.17134.858
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.858
+BuildVersion: 10.0.17134.858
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\outputlog.txt
+VERBOSE: GET https://w1.weather.gov/xml/current_obs/KMSP.xml with 0-byte payload
+VERBOSE: received 2186-byte response of content type application/xml
+VERBOSE: Performing the operation "Output to File" on target ".\weather_data.txt".
+**********************
+Windows PowerShell transcript end
+End time: 20200515150647
+**********************
